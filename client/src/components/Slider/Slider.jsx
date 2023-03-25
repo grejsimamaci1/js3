@@ -9,8 +9,12 @@ const Slider = () =>{
     const[currentSlide, setCurrentSlide] = useState(0);
 
     const data = [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dtraditional%2Bafrican%2Bfashion&psig=AOvVaw3w71hzT-SHVPf3y9qPEmZ-&ust=1679822735259000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjCp73h9v0CFQAAAAAdAAAAABAh",
-        
+        // "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        // "https:////images.pexels.com/photos/1311590/pexels-photo-1311590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        // "https://i0.wp.com/1.bp.blogspot.com/-ucVL77xIkEY/X-BBSqbLNDI/AAAAAAAHcyA/AgEAuYpbcyMrr732KS8sG7WFcN5XnJ0jgCLcBGAsYHQ/s1600/MAD_branding_2.jpg?ssl=1",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d067c14736263.56288430c4641.jpg",
+        "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
     ];
 
     const prevSlide =() =>{
