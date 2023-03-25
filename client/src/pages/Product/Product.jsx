@@ -10,8 +10,8 @@ const Product = () =>{
     const [quantity, setquantity]= useState(1);
 
     const images = [
-        "https://images.pexels.com/photos/12179283/pexels-photo-12179283.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        "https://images.pexels.com/photos/12179283/pexels-photo-12179283.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+        "http://sc04.alicdn.com/kf/Hf24cda227a76437fa7fa4492483141c2n.jpg",
+        "https://ae01.alicdn.com/kf/Hfe76c55823f34967b776b674e83796d1t/2022-New-Autumn-Winter-Jacket-Women-Coat-Fleece-Parka-Velvet-Jackets-Casual-Female-Windbreaker-Outerwear-Manteau.jpg"
     ];
 
     return (
@@ -19,7 +19,7 @@ const Product = () =>{
             <div className="left">
                 <div className="images">
                     <img src={images[0]} alt="" onClick={e => setSelectedImg(0)} />
-                    <img src={images[1]} alt="" />
+                    <img src={images[1]} alt=""  />
                 </div>
                 <div className="mainImg">
                     <img src={images[selectImg]} alt="" onClick={e => setSelectedImg(1)}/>
@@ -46,8 +46,8 @@ const Product = () =>{
                     </div>
                     <div className="info">
                         <span>Vendor: Polo</span>
-                        <span>Product Type: T-shirt</span>
-                        <span>Tag: T-Shirt, Women, Top</span>
+                        <span>Product Type: Jackets</span>
+                        <span>Tag: Jackets, Women, Top</span>
                     </div>
                     <div className="info">
                         <span>DESCRIPTION</span>
