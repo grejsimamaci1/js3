@@ -9,12 +9,11 @@ const Slider = () =>{
     const[currentSlide, setCurrentSlide] = useState(0);
 
     const data = [
-        // "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        // "https:////images.pexels.com/photos/1311590/pexels-photo-1311590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        // "https://i0.wp.com/1.bp.blogspot.com/-ucVL77xIkEY/X-BBSqbLNDI/AAAAAAAHcyA/AgEAuYpbcyMrr732KS8sG7WFcN5XnJ0jgCLcBGAsYHQ/s1600/MAD_branding_2.jpg?ssl=1",
-        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d067c14736263.56288430c4641.jpg",
-        "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://c.stocksy.com/a/MX7I00/z9/4318880.jpg",
+        "https://www.pantone.com/media/wysiwyg/fashion-color-trend-report/london-ss-23/LFW23_HeroImage_Desktop.jpg?auto=webp&format=pjpg&quality=85",
+        "https://assets.vogue.com/photos/6307ef4772022083cfa34fed/master/w_2560%2Cc_limit/00-story.jpg"
+        // "https://assets.vogue.com/photos/641a1a7301c7eb1302ace0bc/3:2/w_3506,h_2337,c_limit/2007-HENRICK-A4-PR-Campaign-Landscape-Image-300ppi_09.jpg",
+        
     ];
 
     const prevSlide =() =>{
