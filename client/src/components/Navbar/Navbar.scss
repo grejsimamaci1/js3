@@ -1,60 +1,156 @@
-.navbar{
+/* Default styles for navbar */
+.navbar {
     height: 80px;
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #444;
+  
     .wrapper {
-        padding: 10px 10px;
+      padding: 10px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .item {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-
-
-        .item {
-            display: flex;
-            align-items: center;
-            font-size: 18px;
-        }
-
-        .left {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-        }
-
-        .center {
-            font-size: 30px;
-            letter-spacing: 2px;
-        }
-
-        .right {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-
-            .icons {
-                display: flex;
-                gap: 15px;
-                color: #777;
-                cursor: pointer;
-
-                .cartIcon {
-                    position: relative;
-
-                    span {
-                        font-size: 12px;
-                        width: 20px;
-                        height: 20px;
-                        border-radius: 50%;
-                        background-color: #2879fe;
-                        color: white;
-                        position: absolute;
-                        right: -10px;
-                        top: -10px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-                }
+        font-size: 18px;
+      }
+  
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+  
+      .center {
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: #ff69b4; /* Set text color to pink */
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px 0 #000;
+      }
+  
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+  
+        .icons {
+          display: flex;
+          gap: 15px;
+          color: #444;
+          cursor: pointer;
+  
+          .cartIcon {
+            position: relative;
+  
+            span {
+              font-size: 12px;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              background-color: #2879fe;
+              color: white;
+              position: absolute;
+              right: -10px;
+              top: -10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
+          }
         }
+      }
     }
-}
+  }
+  
+  /* Media query for screens smaller than 600px (mobile) */
+  @media (max-width: 600px) {
+    .navbar {
+      height: auto;
+  
+      .wrapper {
+        flex-direction: column;
+        padding: 10px;
+  
+        .item {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+  
+        .left, .right {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          gap: 40px;
+          margin-bottom: 20px;
+        }
+  
+        .center {
+          font-size: 35px;
+          letter-spacing: normal;
+          text-shadow: none;
+          margin-bottom: 20px;
+        }
+  
+        .icons {
+          display: none;
+        }
+  
+        .dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+  
+  /* Media query for screens larger than 600px (desktop) */
+  @media (min-width: 601px) {
+    .navbar {
+      .wrapper {
+        .item {
+          font-size: 16px;
+        }
+  
+        .left, .right {
+          width: auto;
+          margin-bottom: 0;
+        }
+  
+        .center {
+          font-size: 40px;
+        }
+  
+        .icons {
+          display: flex;
+        }
+  
+        .dropdown {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ddd;
+  
+    .item {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
+  .dropdown .item:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,24 +1,24 @@
 import React from "react";
-import "./footerr.scss";
+import "./Footer.scss";
 
 const Footer = () =>{
     return (
         <div className="footer">
             <div className="top">
                 <div className="item">
-                    <h1>Categories</h1>
-                    <span>Women</span>
-                    <span>Men</span>
-                    <span>Shoes</span>
-                    <span>Accessories</span>
+                    <h1>Categories</h1><br/>
+                    <span>Women</span><br/>
+                    <span>Men</span><br/>
+                    <span>Shoes</span><br/>
+                    <span>Accessories</span><br/>
                     <span>New Arrivals</span>
                 </div>
                 <div className="item">
-                    <h1>Links</h1>
-                    <span>FAQ</span>
-                    <span>Pages</span>
-                    <span>Store</span>
-                    <span>Compare</span>
+                    <h1>Links</h1><br/>
+                    <span>FAQ</span><br/>
+                    <span>Pages</span><br/>
+                    <span>Store</span><br/>
+                    <span>Compare</span><br/>
                     <span>Cookies</span>
                 </div>
                 <div className="item">

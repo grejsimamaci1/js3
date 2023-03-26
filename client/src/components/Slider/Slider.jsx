@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
-import "./Slider.scss";
+ import "./Slider.scss";
+//import "./Slider.scss";
 
 
 const Slider = () =>{
@@ -13,8 +14,11 @@ const Slider = () =>{
         // "https:////images.pexels.com/photos/1311590/pexels-photo-1311590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         // "https://i0.wp.com/1.bp.blogspot.com/-ucVL77xIkEY/X-BBSqbLNDI/AAAAAAAHcyA/AgEAuYpbcyMrr732KS8sG7WFcN5XnJ0jgCLcBGAsYHQ/s1600/MAD_branding_2.jpg?ssl=1",
         "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d067c14736263.56288430c4641.jpg",
-        "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://assets.vogue.com/photos/6307ef4772022083cfa34fed/master/w_2560%2Cc_limit/00-story.jpg",
+        "https://www.pantone.com/media/wysiwyg/fashion-color-trend-report/london-ss-23/LFW23_HeroImage_Desktop.jpg?auto=webp&format=pjpg&quality=85"
+
+        //"https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        //"https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
     ];
 
     const prevSlide =() =>{
