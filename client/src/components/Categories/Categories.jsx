@@ -6,13 +6,13 @@ const Categories = () =>{
         <div className="categories">
             <div className="col">
                 <div className="row">
-                    <img src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                    <img src="https://images.fastfashionnews.co.uk/wp-content/uploads/2020/04/fashion-sales.jpeg" alt="" />
                     <button>
                         <Link className="link" to="/products/1">Sale</Link>
                     </button>
                 </div>
                 <div className="row">
-                    <img src="https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
+                    <img src="https://media.glamourmagazine.co.uk/photos/633eeedb7e1bb30bf7374d07/1:1/w_1920,h_1920,c_limit/KAIA%20GERBER%20X%20ZARA%20061022%20SQUARE.jpg" alt=""/>
                     <button>
                          <Link to="/products/1" className="link">
                              Women
@@ -22,7 +22,7 @@ const Categories = () =>{
             </div>
             <div className="col">
                 <div className="row">
-                    <img src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                    <img src="https://wwd.com/wp-content/uploads/2021/04/mens-fashion-2021-awards-season-4-1.jpg?w=1024" alt="" />
                     <button>
                         <Link to="/products/1" className="link">
                         New Season
@@ -34,7 +34,7 @@ const Categories = () =>{
                 <div className="row">
                     <div className="col">
                         <div className="row">
-                            <img src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
+                            <img src="https://www.themanual.com/wp-content/uploads/sites/9/2020/09/will-smith-overalls-copy.jpg?fit=800%2C533&p=1" alt=""/>
                             <button>
                                 <Link to="/products/1" className="link">
                                     Men
@@ -44,7 +44,7 @@ const Categories = () =>{
                     </div>
                     <div className="col">
                         <div className="row">
-                            <img src="https://images.pexels.com/photos/2703202/pexels-photo-2703202.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
+                            <img src="https://cdn.shopify.com/s/files/1/0259/4344/1457/collections/s22_q1_w_vday_accessories_cluster_4467-547936.jpg?v=1644355846" alt=""/>
                             <button>
                                 <Link to="/products/1" className="link">
                                     Accessories
@@ -54,7 +54,7 @@ const Categories = () =>{
                     </div>
                 </div>
                 <div className="row">
-                        <img src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
+                        <img src="https://i.pinimg.com/564x/a0/ad/f7/a0adf7d44be4fe48595ebbfce69d8e76.jpg" alt=""/>
                         <button>
                         <Link to="/products/1" className="link">
                             Shoes

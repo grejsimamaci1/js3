@@ -36,7 +36,7 @@ const Footer = () =>{
             </div>
             <div className="bottom">
                 <div className="left">
-                    <span className="logo">Lastet Fashion</span>
+                    <span className="logo">Latest Fashion</span>
                     <span className="copyright">
                         © Copyright 2023. All Rights Reserved
                     </span>

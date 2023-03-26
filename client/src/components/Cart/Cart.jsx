@@ -28,6 +28,7 @@ const Cart = () =>{
     return(
         <div className="cart">
             <h1>Products in your chart</h1>
+            <div className="items-container">
             {data?.map( (item) => (
                 <div className="item" key={item.id}>
                     <img src={item.img} alt=""/>
@@ -41,13 +42,13 @@ const Cart = () =>{
                     <DeleteOutlinedIcon className="delete"/>
                 </div>
                 ))}
-                <div className="total">
-                    <span>SUBTOTAL</span>
-                    <span>$333</span>
-                </div>
-                <button>PROCEED TO CHECKOUT</button>
-                <span className="reset">Reset Cart</span>
-              
+            </div>
+            <div className="total">
+                <span>SUBTOTAL</span>
+                <span>$333</span>
+            </div>
+            <button>PROCEED TO CHECKOUT</button>
+            <span className="reset">Reset Cart</span>
         </div>
     )
 }

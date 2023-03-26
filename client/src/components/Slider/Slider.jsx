@@ -10,7 +10,7 @@ const Slider = () =>{
 
     const data = [
         "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://assets.vogue.com/photos/6307ef4772022083cfa34fed/master/w_2560%2Cc_limit/00-story.jpg",
         "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
     ];
 
