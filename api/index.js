@@ -47,11 +47,27 @@ if (subCategories.length == 0) {
 }
 
 app.get('/api/products', (req, res) => {
+  console.log(req.query);
+//added
+  // if(req.query.cat_id) {
+  //   res.json({
+  //     "status": "success",
+  //     "data": LS.getProductsBySubCat('products', req.query.cat_id)
+  //   })
+  // }
+
   res.json({
     "status": "success",
     "data": LS.all('products')
   })
 });
+//added categories
+// app.get('/api/categories/:subCatId', (req, res) => {
+//   res.json({
+//     "status": "success",
+//     "data": LS.getProductsBySubCat('products', req.params.subCatId)
+//   })
+// });
 app.get('/api/products/:subCatId', (req, res) => {
   res.json({
     "status": "success",
@@ -59,6 +75,9 @@ app.get('/api/products/:subCatId', (req, res) => {
   })
 });
 app.get('/api/products/:id', (req, res) => {
+// res.json({
+//   'hello': 'grejs'
+// })
   res.json({
     "status": "success",
     "data": LS.find('products', req.params.productId)

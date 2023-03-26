@@ -12,7 +12,7 @@ const Categories = () =>{
                     </button>
                 </div>
                 <div className="row">
-                    <img src="https://images.fastfashionnews.co.uk/wp-content/uploads/2020/04/fashion-sales.jpeg" alt=""/>
+                    <img src="https://media.glamourmagazine.co.uk/photos/633eeedb7e1bb30bf7374d07/1:1/w_1920,h_1920,c_limit/KAIA%20GERBER%20X%20ZARA%20061022%20SQUARE.jpg" alt=""/>
                     <button>
                          <Link to="/products/1" className="link">
                              Women
